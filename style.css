@@ -1,0 +1,59 @@
+
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: linear-gradient(to bottom right, #1a0933, #4a145e);
+  color: #f3e6f9;
+  line-height: 1.6;
+}
+header {
+  background-color: rgba(255, 255, 255, 0.05);
+  text-align: center;
+  padding: 3rem 1rem;
+}
+header h1 {
+  font-size: 2.2rem;
+  margin: 0;
+  color: #ffb3f6;
+}
+.section {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+.section h2 {
+  color: #ffb3f6;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #ffb3f6;
+  padding-bottom: 0.5rem;
+}
+ul {
+  padding-left: 1.2rem;
+}
+.card-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card-gallery img {
+  width: 90px;
+  margin: 10px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ffb3f6;
+}
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+a.button {
+  display: inline-block;
+  padding: 0.75rem 1.2rem;
+  margin-top: 1rem;
+  background: #ffb3f6;
+  color: #1a0933;
+  text-decoration: none;
+  border-radius: 5px;
+}
